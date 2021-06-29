@@ -13,5 +13,12 @@ img {
     margin: 50px;
     padding: 0;
     object-fit: scale-down;
-    border-radius: 27px;
+    border-radius: 10px;
 }
+
+@media (max-width: 900px) {
+    img {
+        width: 90vw;
+        margin: 20px;
+    }
+  }
