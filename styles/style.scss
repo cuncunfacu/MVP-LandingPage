@@ -57,8 +57,14 @@ body {
 }
 
 @media (max-width: 900px) {
-    img {
-        width: 90vw;
-        margin: 20px;
+    .navbar {
+            display: none;
+    }
+    .img-container {
+        padding-top: 0;
+        img {
+            width: 90vw;
+            margin: 20px;
+        }
     }
   }
